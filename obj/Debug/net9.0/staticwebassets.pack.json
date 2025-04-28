@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.9a082f92.css"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.9a082f92.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.ff977c01.js"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.ff977c01.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.ff977c01.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyAspNetCoreServer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyAspNetCoreServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyAspNetCoreServer.props",
+      "PackagePath": "build\\MyAspNetCoreServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyAspNetCoreServer.props",
+      "PackagePath": "buildMultiTargeting\\MyAspNetCoreServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyAspNetCoreServer.props",
+      "PackagePath": "buildTransitive\\MyAspNetCoreServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

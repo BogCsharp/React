@@ -1,0 +1,3628 @@
+{
+  "Version": 1,
+  "Hash": "MRjceXb8lszTlVfvfsL+xIcrFVDcyquLc4+jVgfVWXU=",
+  "Source": "MyAspNetCoreServer",
+  "BasePath": "_content/MyAspNetCoreServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyAspNetCoreServer\\wwwroot",
+      "Source": "MyAspNetCoreServer",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\1169ltrvcg-5nkxvey8cl.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "index#[.{fingerprint=5nkxvey8cl}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q2nsn9uc6e",
+      "Integrity": "LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4aq8nswi38-f8qw95moz6.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/css/main.9a082f92#[.{fingerprint=f8qw95moz6}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lw4u8268qd",
+      "Integrity": "VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4zpviphbvx-ky62on6fd0.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/js/main.ff977c01.js.LICENSE#[.{fingerprint=ky62on6fd0}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u638g3f6qy",
+      "Integrity": "2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\5hnmowyfqa-1f2oqlqaa3.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "favicon#[.{fingerprint=1f2oqlqaa3}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "glsbb7dowp",
+      "Integrity": "hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\6arjnuezwm-2wqsmjlr0i.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "asset-manifest#[.{fingerprint=2wqsmjlr0i}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\asset-manifest.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zegjdjbldx",
+      "Integrity": "Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\asset-manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\kwh3bfwq6m-ycwx4c6yvq.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/css/main.9a082f92.css#[.{fingerprint=ycwx4c6yvq}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gm5lae18yv",
+      "Integrity": "SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\lzvkphf192-sl60c43r8o.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "robots#[.{fingerprint=sl60c43r8o}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\robots.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "87lgtu7z8q",
+      "Integrity": "rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\robots.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\qll5kmxj8d-wotbdrlczw.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/js/main.ff977c01.js#[.{fingerprint=wotbdrlczw}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "839oetans7",
+      "Integrity": "BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s6nk1p65x9-q1e63hy8ii.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/js/main.ff977c01#[.{fingerprint=q1e63hy8ii}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3gow33fh34",
+      "Integrity": "w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s777tcqcrd-4bysstsvp2.gz",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "manifest#[.{fingerprint=4bysstsvp2}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\manifest.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "em7h5dc8ac",
+      "Integrity": "1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\asset-manifest.json",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "asset-manifest#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2wqsmjlr0i",
+      "Integrity": "3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\asset-manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\favicon.ico",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1f2oqlqaa3",
+      "Integrity": "PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\index.html",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5nkxvey8cl",
+      "Integrity": "P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo192.png",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "logo192#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xr54by9dn2",
+      "Integrity": "w4Y5bscNs2CAdbX7+qxKscyqhroFpoqzk+xVHrZsPgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo192.png"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo512.png",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "logo512#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2377xp85ga",
+      "Integrity": "nqT02nBQwMxAiSb2o5wlNiTpursdQ8eXfNghRFpgtGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo512.png"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\manifest.json",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "manifest#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4bysstsvp2",
+      "Integrity": "ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\robots.txt",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "robots#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sl60c43r8o",
+      "Integrity": "kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\robots.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/css/main.9a082f92#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f8qw95moz6",
+      "Integrity": "MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.9a082f92.css"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css.map",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/css/main.9a082f92.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ycwx4c6yvq",
+      "Integrity": "EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.9a082f92.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/js/main.ff977c01#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q1e63hy8ii",
+      "Integrity": "nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.ff977c01.js"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/js/main.ff977c01.js.LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ky62on6fd0",
+      "Integrity": "vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.map",
+      "SourceId": "MyAspNetCoreServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\",
+      "BasePath": "_content/MyAspNetCoreServer",
+      "RelativePath": "static/js/main.ff977c01.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wotbdrlczw",
+      "Integrity": "EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.ff977c01.js.map"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "asset-manifest.2wqsmjlr0i.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\6arjnuezwm-2wqsmjlr0i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006060606061"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2wqsmjlr0i"
+        },
+        {
+          "Name": "label",
+          "Value": "asset-manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk="
+        }
+      ]
+    },
+    {
+      "Route": "asset-manifest.2wqsmjlr0i.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\asset-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2wqsmjlr0i"
+        },
+        {
+          "Name": "label",
+          "Value": "asset-manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk="
+        }
+      ]
+    },
+    {
+      "Route": "asset-manifest.2wqsmjlr0i.json.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\6arjnuezwm-2wqsmjlr0i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2wqsmjlr0i"
+        },
+        {
+          "Name": "label",
+          "Value": "asset-manifest.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0="
+        }
+      ]
+    },
+    {
+      "Route": "asset-manifest.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\6arjnuezwm-2wqsmjlr0i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006060606061"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk="
+        }
+      ]
+    },
+    {
+      "Route": "asset-manifest.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\asset-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3nbopOUo+q/V97DeVbSo/si1UiRcBHsYAoxMyjLXrmk="
+        }
+      ]
+    },
+    {
+      "Route": "asset-manifest.json.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\6arjnuezwm-2wqsmjlr0i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jd1ICBoRRPvukdOw7cUlMCPwawoe6RWDtLRmDvVze/0="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.1f2oqlqaa3.ico",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\5hnmowyfqa-1f2oqlqaa3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000273897562"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3650"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1f2oqlqaa3"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.1f2oqlqaa3.ico",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1f2oqlqaa3"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.1f2oqlqaa3.ico.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\5hnmowyfqa-1f2oqlqaa3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1f2oqlqaa3"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\5hnmowyfqa-1f2oqlqaa3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000273897562"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3650"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw/NMS+7n0i90="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\5hnmowyfqa-1f2oqlqaa3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJz6th6R/BIbTppAEUDnvu3y4omXercB605rh9cbDB0="
+        }
+      ]
+    },
+    {
+      "Route": "index.5nkxvey8cl.html",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\1169ltrvcg-5nkxvey8cl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002631578947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nkxvey8cl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI="
+        }
+      ]
+    },
+    {
+      "Route": "index.5nkxvey8cl.html",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nkxvey8cl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI="
+        }
+      ]
+    },
+    {
+      "Route": "index.5nkxvey8cl.html.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\1169ltrvcg-5nkxvey8cl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nkxvey8cl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\1169ltrvcg-5nkxvey8cl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002631578947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4IWGzgAmp+9OZF0QrzmNQXWOwoR6MaGCJgRFSx2AYI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\1169ltrvcg-5nkxvey8cl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LoFhZFJJu/CSb4LfXj14V17eriZS4miQVo5KDHUccUI="
+        }
+      ]
+    },
+    {
+      "Route": "logo192.png",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w4Y5bscNs2CAdbX7+qxKscyqhroFpoqzk+xVHrZsPgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w4Y5bscNs2CAdbX7+qxKscyqhroFpoqzk+xVHrZsPgA="
+        }
+      ]
+    },
+    {
+      "Route": "logo192.xr54by9dn2.png",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w4Y5bscNs2CAdbX7+qxKscyqhroFpoqzk+xVHrZsPgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xr54by9dn2"
+        },
+        {
+          "Name": "label",
+          "Value": "logo192.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w4Y5bscNs2CAdbX7+qxKscyqhroFpoqzk+xVHrZsPgA="
+        }
+      ]
+    },
+    {
+      "Route": "logo512.2377xp85ga.png",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nqT02nBQwMxAiSb2o5wlNiTpursdQ8eXfNghRFpgtGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2377xp85ga"
+        },
+        {
+          "Name": "label",
+          "Value": "logo512.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nqT02nBQwMxAiSb2o5wlNiTpursdQ8eXfNghRFpgtGE="
+        }
+      ]
+    },
+    {
+      "Route": "logo512.png",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\logo512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nqT02nBQwMxAiSb2o5wlNiTpursdQ8eXfNghRFpgtGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nqT02nBQwMxAiSb2o5wlNiTpursdQ8eXfNghRFpgtGE="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.4bysstsvp2.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s777tcqcrd-4bysstsvp2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003906250000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4bysstsvp2"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.4bysstsvp2.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4bysstsvp2"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.4bysstsvp2.json.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s777tcqcrd-4bysstsvp2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4bysstsvp2"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s777tcqcrd-4bysstsvp2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003906250000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.json",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ULPYw5A68/eNhxuUVXqxT045yhkurKPSz6hjyGcnmhQ="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.json.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s777tcqcrd-4bysstsvp2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1nm3OGYJa5QQs7OdtWlEWrx6kr4+rABek41ii7xUtdM="
+        }
+      ]
+    },
+    {
+      "Route": "robots.sl60c43r8o.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\lzvkphf192-sl60c43r8o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.012658227848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sl60c43r8o"
+        },
+        {
+          "Name": "label",
+          "Value": "robots.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI="
+        }
+      ]
+    },
+    {
+      "Route": "robots.sl60c43r8o.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\robots.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sl60c43r8o"
+        },
+        {
+          "Name": "label",
+          "Value": "robots.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI="
+        }
+      ]
+    },
+    {
+      "Route": "robots.sl60c43r8o.txt.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\lzvkphf192-sl60c43r8o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sl60c43r8o"
+        },
+        {
+          "Name": "label",
+          "Value": "robots.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI="
+        }
+      ]
+    },
+    {
+      "Route": "robots.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\lzvkphf192-sl60c43r8o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.012658227848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI="
+        }
+      ]
+    },
+    {
+      "Route": "robots.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\robots.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kNJLw79pisHhc3OVAimMzKcq3x9WT6sF9IS4xI0crdI="
+        }
+      ]
+    },
+    {
+      "Route": "robots.txt.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\lzvkphf192-sl60c43r8o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 13:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rItxXqHBy8SoA7m5YJ+zMFphGBu56P15FtzfRd5pgpI="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4aq8nswi38-f8qw95moz6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002314814815"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4aq8nswi38-f8qw95moz6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\kwh3bfwq6m-ycwx4c6yvq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001390820584"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "718"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.map.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\kwh3bfwq6m-ycwx4c6yvq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.ycwx4c6yvq.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\kwh3bfwq6m-ycwx4c6yvq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001390820584"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "718"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycwx4c6yvq"
+        },
+        {
+          "Name": "label",
+          "Value": "static/css/main.9a082f92.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.ycwx4c6yvq.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycwx4c6yvq"
+        },
+        {
+          "Name": "label",
+          "Value": "static/css/main.9a082f92.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjbEb+WvsVYaLPu8CwXah9Us2r68YxNwL1prIpQlE08="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.css.ycwx4c6yvq.map.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\kwh3bfwq6m-ycwx4c6yvq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycwx4c6yvq"
+        },
+        {
+          "Name": "label",
+          "Value": "static/css/main.9a082f92.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SJ6sNJLIgAeI1fJKSM5rX+aH2kRR2DqFj8tZ9xd/ik0="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.f8qw95moz6.css",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4aq8nswi38-f8qw95moz6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002314814815"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8qw95moz6"
+        },
+        {
+          "Name": "label",
+          "Value": "static/css/main.9a082f92.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.f8qw95moz6.css",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\css\\main.9a082f92.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8qw95moz6"
+        },
+        {
+          "Name": "label",
+          "Value": "static/css/main.9a082f92.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MXaQ1n26l5ygXkMuFOmnoHxXi3hh0B0sfPjqRrV74k4="
+        }
+      ]
+    },
+    {
+      "Route": "static/css/main.9a082f92.f8qw95moz6.css.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4aq8nswi38-f8qw95moz6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8qw95moz6"
+        },
+        {
+          "Name": "label",
+          "Value": "static/css/main.9a082f92.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VSRSnbUT10tZwg32hJqKMmH4t+eLTO32TFTGsIphEeU="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s6nk1p65x9-q1e63hy8ii.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016544239"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60443"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s6nk1p65x9-q1e63hy8ii.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.LICENSE.ky62on6fd0.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4zpviphbvx-ky62on6fd0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004629629630"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ky62on6fd0"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.LICENSE.ky62on6fd0.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ky62on6fd0"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.LICENSE.ky62on6fd0.txt.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4zpviphbvx-ky62on6fd0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ky62on6fd0"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.LICENSE.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.LICENSE.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4zpviphbvx-ky62on6fd0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004629629630"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.LICENSE.txt",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vIOq/0PT75MBMxu/6qzE0thUnfyQKfeGvWq90yNjsCA="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.LICENSE.txt.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\4zpviphbvx-ky62on6fd0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2tF241CdxsTmtIVPLBAhyHd8j4NLvTyD9r90F0bSGWQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\qll5kmxj8d-wotbdrlczw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000004743653"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210807"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "785342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.map.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\qll5kmxj8d-wotbdrlczw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.wotbdrlczw.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\qll5kmxj8d-wotbdrlczw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000004743653"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210807"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wotbdrlczw"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.wotbdrlczw.map",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "785342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wotbdrlczw"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EDQfXFdO4JBM7LnJ11nR2xobG9UN7aCcVHhaljR8BDQ="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.js.wotbdrlczw.map.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\qll5kmxj8d-wotbdrlczw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wotbdrlczw"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BAZjZrNLydpvUNzRRz1njhJ9PIuMnNrXHkbqclVQJdc="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.q1e63hy8ii.js",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s6nk1p65x9-q1e63hy8ii.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016544239"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60443"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1e63hy8ii"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.q1e63hy8ii.js",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\wwwroot\\static\\js\\main.ff977c01.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1e63hy8ii"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnNCF4aKiHoEHvVEUPL0z6VAptSybIG4KSOr2fjPT4g="
+        }
+      ]
+    },
+    {
+      "Route": "static/js/main.ff977c01.q1e63hy8ii.js.gz",
+      "AssetFile": "C:\\Users\\Home_PC\\Desktop\\MyAspNetCoreServer\\obj\\Debug\\net9.0\\compressed\\s6nk1p65x9-q1e63hy8ii.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 14:17:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q1e63hy8ii"
+        },
+        {
+          "Name": "label",
+          "Value": "static/js/main.ff977c01.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0KLP7a/RNFUPINzamSQp5tczlehH8QQUEUM/CEfLZQ="
+        }
+      ]
+    }
+  ]
+}

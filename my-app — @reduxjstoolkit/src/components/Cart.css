@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #4a90e2;
+    --hover-color: #357abd;
+    --text-dark: #333;
+    --text-light: #666;
+    --bg-white: #fff;
+    --border-light: #eee;
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --radius: 8px;
+    --transition: all 0.3s ease;
+  }
+  
+  .cart-container {
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background: var(--bg-white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+  }
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  .item-details h3 { margin: 0 0 5px; color: var(--text-dark); }
+  .item-details p { margin: 5px 0; color: var(--text-light); }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-controls input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  
+  .btn:hover { background: var(--hover-color); }
+  .btn-primary { background: var(--primary-color); }
+  
+  .btn-sm {
+    padding: 5px 10px;
+  }
+  
+  .cart-summary h3 { margin: 0 0 15px; }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  
+  .summary-row:last-child {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .checkout-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .empty-cart p { 
+    color: var(--text-light);
+    margin-bottom: 20px;
+  }
