@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeFromCart, updateQuantity, clearCart } from '../store/slices/cartSlice';
+import { removeFromCart, updateQuantity } from '../store/slices/cartSlice';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Cart.css';

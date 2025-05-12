@@ -5,11 +5,12 @@ import './Orders.css';
 
 const Orders = () => {
     const { user } = useAuth();
-    const { data: orders = [], isLoading, error } = useGetOrdersQuery();
+    const { data: allOrders = [], isLoading, error } = useGetOrdersQuery();
+    const orders = allOrders.filter(order => order.userId === user?.id?.toString());
 
+    if (!user) return <div>Войдите, чтобы увидеть заказы</div>;
     if (isLoading) return <div>Загрузка ваших заказов...</div>;
     if (error) return <div className="error">{error.data || 'Failed to load orders'}</div>;
-    if (!user) return <div>Войдите, чтобы увидеть заказы</div>;
 
     return (
         <div className="orders-container">

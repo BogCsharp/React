@@ -11,19 +11,39 @@ export const createOrder = createAsyncThunk(
     'orders/createOrder',
     async (orderData, { rejectWithValue }) => {
         try {
-            const response = await fetch('/api/orders', {
+            const user = JSON.parse(localStorage.getItem('user'));
+            if (!user) {
+                throw new Error('User not authenticated');
+            }
+
+            const requestData = {
+                UserId: orderData.UserId,
+                UserName: orderData.UserName,
+                Email: orderData.Email,
+                Address: orderData.Address,
+                PaymentMethod: orderData.PaymentMethod,
+                TotalAmount: orderData.TotalAmount,
+                Items: orderData.Items
+            };
+
+            const response = await fetch('http://localhost:5112/api/orders', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${user.token}`
                 },
-                body: JSON.stringify(orderData),
+                body: JSON.stringify(requestData)
             });
+            
+            const data = await response.json();
+            
             if (!response.ok) {
-                throw new Error('Failed to create order');
+                throw new Error(data.message || data.error || `Server error: ${response.status} ${response.statusText}`);
             }
-            return await response.json();
+            
+            return data;
         } catch (error) {
-            return rejectWithValue(error.message);
+            return rejectWithValue(error.message || 'Произошла ошибка при создании заказа');
         }
     }
 );
@@ -32,11 +52,25 @@ export const fetchOrders = createAsyncThunk(
     'orders/fetchOrders',
     async (_, { rejectWithValue }) => {
         try {
-            const response = await fetch('/api/orders');
-            if (!response.ok) {
-                throw new Error('Failed to fetch orders');
+            const user = JSON.parse(localStorage.getItem('user'));
+            if (!user) {
+                throw new Error('User not authenticated');
             }
-            return await response.json();
+
+            const response = await fetch(`http://localhost:5112/api/orders?userId=${user.id}`, {
+                headers: {
+                    'Authorization': `Bearer ${user.token}`
+                }
+            });
+            
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.message || 'Failed to fetch orders');
+            }
+            
+            const orders = await response.json();
+            const userOrders = orders.filter(order => String(order.userId) === String(user.id));
+            return userOrders;
         } catch (error) {
             return rejectWithValue(error.message);
         }
@@ -46,10 +80,15 @@ export const fetchOrders = createAsyncThunk(
 const ordersSlice = createSlice({
     name: 'orders',
     initialState,
-    reducers: {},
+    reducers: {
+        clearOrders: (state) => {
+            state.orders = [];
+            state.currentOrder = null;
+            state.error = null;
+        }
+    },
     extraReducers: (builder) => {
         builder
-            // Create Order
             .addCase(createOrder.pending, (state) => {
                 state.loading = true;
                 state.error = null;
@@ -63,7 +102,6 @@ const ordersSlice = createSlice({
                 state.loading = false;
                 state.error = action.payload;
             })
-            // Fetch Orders
             .addCase(fetchOrders.pending, (state) => {
                 state.loading = true;
                 state.error = null;
@@ -79,4 +117,5 @@ const ordersSlice = createSlice({
     }
 });
 
+export const { clearOrders } = ordersSlice.actions;
 export default ordersSlice.reducer; 

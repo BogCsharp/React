@@ -51,7 +51,6 @@ const Checkout = () => {
                 navigate('/orders');
             } catch (error) {
                 console.error('Failed to create order:', error);
-                // Handle error appropriately
             }
         } else {
             setStep(prev => prev + 1);

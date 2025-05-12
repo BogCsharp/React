@@ -7,6 +7,7 @@ import { useAuth } from '../hooks/UseAuth';
 
 const Checkout = () => {
     const cart = useSelector(state => state.cart);
+    const orders = useSelector(state => state.orders);
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const { user } = useAuth();
@@ -29,27 +30,70 @@ const Checkout = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (step === 3) {
+            if (!formData.name.trim() || !formData.email.trim() || !formData.address.trim()) {
+                alert('Пожалуйста, заполните все обязательные поля');
+                return;
+            }
+
+            if (!user) {
+                alert('Пожалуйста, войдите в систему для оформления заказа');
+                return;
+            }
+
+            if (cart.items.length === 0) {
+                alert('Корзина пуста');
+                return;
+            }
+
             const orderData = {
-                userId: (user?.id || 'guest').toString(),
-                userName: formData.name.trim(),
-                email: formData.email.trim(),
-                address: formData.address.trim(),
-                paymentMethod: formData.paymentMethod,
-                totalAmount: parseFloat(cart.total),
-                items: cart.items.map(item => ({
-                    productId: parseInt(item.id),
-                    productName: item.name.trim(),
-                    price: parseFloat(item.price),
-                    quantity: parseInt(item.quantity)
+                UserId: user.id.toString(),
+                UserName: formData.name.trim(),
+                Email: formData.email.trim(),
+                Address: formData.address.trim(),
+                PaymentMethod: formData.paymentMethod,
+                TotalAmount: Number(parseFloat(cart.total).toFixed(2)),
+                Items: cart.items.map(item => ({
+                    ProductId: Number(item.id),
+                    ProductName: item.name.trim(),
+                    Price: Number(parseFloat(item.price).toFixed(2)),
+                    Quantity: Number(item.quantity)
                 }))
             };
 
+            if (!orderData.UserId || !orderData.UserName || !orderData.Email || !orderData.Address || !orderData.PaymentMethod) {
+                alert('Пожалуйста, заполните все обязательные поля');
+                return;
+            }
+
+            if (isNaN(orderData.TotalAmount) || orderData.TotalAmount <= 0) {
+                alert('Некорректная сумма заказа');
+                return;
+            }
+
+            if (!orderData.Items || orderData.Items.length === 0) {
+                alert('Корзина пуста');
+                return;
+            }
+
+            if (!orderData.Items.every(item => 
+                !isNaN(item.ProductId) && 
+                !isNaN(item.Price) && 
+                !isNaN(item.Quantity) &&
+                item.Price > 0 &&
+                item.Quantity > 0
+            )) {
+                alert('Некорректные данные товаров');
+                return;
+            }
+
             try {
-                await dispatch(createOrder(orderData)).unwrap();
-                dispatch(clearCart());
-                navigate('/orders');
+                const result = await dispatch(createOrder(orderData)).unwrap();
+                if (result) {
+                    dispatch(clearCart());
+                    navigate('/orders');
+                }
             } catch (error) {
-                console.error('Failed to create order:', error);
+                alert(error || 'Произошла ошибка при создании заказа');
             }
         } else {
             setStep(prev => prev + 1);
@@ -68,6 +112,7 @@ const Checkout = () => {
                             value={formData.name}
                             onChange={handleInputChange}
                             placeholder="Имя"
+                            required
                         />
                         <input
                             type="email"
@@ -75,6 +120,7 @@ const Checkout = () => {
                             value={formData.email}
                             onChange={handleInputChange}
                             placeholder="Email"
+                            required
                         />
                         <input
                             type="text"
@@ -82,6 +128,7 @@ const Checkout = () => {
                             value={formData.address}
                             onChange={handleInputChange}
                             placeholder="Адрес"
+                            required
                         />
                     </div>
                 );
@@ -121,16 +168,29 @@ const Checkout = () => {
 
     return (
         <div style={{ padding: '20px' }}>
+            {orders.error && (
+                <div style={{ color: 'red', marginBottom: '10px' }}>
+                    {orders.error}
+                </div>
+            )}
             <form onSubmit={handleSubmit}>
                 {renderStep()}
                 <div style={{ marginTop: '20px' }}>
                     {step > 1 && (
-                        <button style={{marginBottom:'10px'}} type="button" onClick={() => setStep(prev => prev - 1)}>
+                        <button 
+                            style={{marginBottom:'10px'}} 
+                            type="button" 
+                            onClick={() => setStep(prev => prev - 1)}
+                            disabled={orders.loading}
+                        >
                             Назад
                         </button>
                     )}
-                    <button type="submit">
-                        {step === 3 ? 'Оформить заказ' : 'Далее'}
+                    <button 
+                        type="submit"
+                        disabled={orders.loading}
+                    >
+                        {orders.loading ? 'Загрузка...' : (step === 3 ? 'Оформить заказ' : 'Далее')}
                     </button>
                 </div>
             </form>

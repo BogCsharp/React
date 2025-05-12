@@ -2,14 +2,16 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addToCart } from '../store/slices/cartSlice';
 import { useGetProductsQuery } from '../store/api/apiSlice';
+import { useAuth } from '../hooks/UseAuth';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
 import './Products.css';
 
 const Products = () => {
     const dispatch = useDispatch();
+    const { user } = useAuth();
     const [page, setPage] = React.useState(1);
-    const { data, isLoading, error, isFetching } = useGetProductsQuery(page);
+    const { data, isLoading, error, isFetching } = useGetProductsQuery({ page, userId: user?.id });
     
     console.log('API Response:', data);
     console.log('Loading state:', isLoading);

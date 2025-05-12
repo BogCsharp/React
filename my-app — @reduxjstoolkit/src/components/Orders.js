@@ -10,10 +10,15 @@ const Orders = () => {
     const { user } = useAuth();
 
     useEffect(() => {
-        if (user?.username) {
+        if (user?.id) {
+            console.log('Orders component - User ID:', user.id); // Debug log
             dispatch(fetchOrders());
         }
     }, [dispatch, user]);
+
+    useEffect(() => {
+        console.log('Orders component - Current orders:', orders); // Debug log
+    }, [orders]);
 
     if (loading) return <div>Загрузка ваших заказов...</div>;
     if (error) return <div className="error">{error}</div>;
@@ -23,7 +28,7 @@ const Orders = () => {
         <div className="orders-container">
             <h2>Ваши заказы</h2>
             {orders.length === 0 ? (
-                <p>Бегом за покупками</p>
+                <p>У вас пока нет заказов</p>
             ) : (
                 <div className="orders-list">
                     {orders.map(order => (
@@ -43,7 +48,7 @@ const Orders = () => {
                                     order.orderItems.map(item => (
                                         <div key={item.id} className="order-item">
                                             <p>{item.productName}</p>
-                                            <p>Количество: {item.quantity} </p>
+                                            <p>Количество: {item.quantity}</p>
                                             <p>Цена: {item.price.toFixed(2)} руб</p>
                                         </div>
                                     ))

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyAspNetCoreServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+866d5da82646b3c7b1367c67b363ef07bca81848")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyAspNetCoreServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyAspNetCoreServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

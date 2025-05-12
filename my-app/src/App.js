@@ -7,6 +7,7 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import Orders from './components/Orders';
 import Header from './components/Header';
+import ProtectedRoute from './components/ProtectedRoute';
 
 const App = () => {
     return (
@@ -16,10 +17,26 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
-                <Route path="/products" element={<Products />} />
-                <Route path="/cart" element={<Cart />} />
-                <Route path="/checkout" element={<Checkout />} />
-                <Route path="/orders" element={<Orders />} />
+                <Route path="/products" element={
+                    <ProtectedRoute>
+                        <Products />
+                    </ProtectedRoute>
+                } />
+                <Route path="/cart" element={
+                    <ProtectedRoute>
+                        <Cart />
+                    </ProtectedRoute>
+                } />
+                <Route path="/checkout" element={
+                    <ProtectedRoute>
+                        <Checkout />
+                    </ProtectedRoute>
+                } />
+                <Route path="/orders" element={
+                    <ProtectedRoute>
+                        <Orders />
+                    </ProtectedRoute>
+                } />
             </Routes>
         </div>
     );

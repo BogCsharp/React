@@ -11,30 +11,29 @@ export const apiSlice = createApi({
     }),
     endpoints: (builder) => ({
         getProducts: builder.query({
-            query: (page = 1) => ({
-                url: `products?page=${page}`,
-                method: 'GET'
+            query: ({ page = 1, userId }) => ({
+                url: `products`,
+                params: { page, userId: userId?.toString() }
             }),
             transformResponse: (response, meta, arg) => {
-                console.log('Raw API Response:', response);
                 if (Array.isArray(response)) {
                     return {
                         products: response,
                         hasMore: response.length >= 10,
-                        currentPage: arg
+                        currentPage: arg.page
                     };
                 } else if (response && typeof response === 'object') {
                     const products = response.products || response.items || [];
                     return {
                         products,
-                        hasMore: products.length >= 10 || response.hasMore || response.totalPages > arg,
-                        currentPage: arg
+                        hasMore: products.length >= 10 || response.hasMore || response.totalPages > arg.page,
+                        currentPage: arg.page
                     };
                 }
                 return {
                     products: [],
                     hasMore: false,
-                    currentPage: arg
+                    currentPage: arg.page
                 };
             },
             keepUnusedDataFor: 300,
@@ -64,7 +63,9 @@ export const apiSlice = createApi({
             invalidatesTags: ['Orders']
         }),
         getOrders: builder.query({
-            query: () => 'orders',
+            query: () => ({
+                url: 'orders'
+            }),
             providesTags: ['Orders']
         })
     })

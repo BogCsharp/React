@@ -7,6 +7,7 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import Orders from './components/Orders';
 import Header from './components/Header';
+import PrivateRoute from './components/PrivateRoute';
 
 const App = () => {
     return (
@@ -16,10 +17,18 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
-                <Route path="/products" element={<Products />} />
+                <Route path="/products" element={
+                    <PrivateRoute>
+                        <Products />
+                    </PrivateRoute>
+                } />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/checkout" element={<Checkout />} />
-                <Route path="/orders" element={<Orders />} />
+                <Route path="/orders" element={
+                    <PrivateRoute>
+                        <Orders />
+                    </PrivateRoute>
+                } />
             </Routes>
         </div>
     );
