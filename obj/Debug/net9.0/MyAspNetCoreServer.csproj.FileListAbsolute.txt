@@ -215,9 +215,9 @@ C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjs
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit и @reduxjstoolkitqueryreact\package-lock.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit и @reduxjstoolkitqueryreact\package.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit и @reduxjstoolkitqueryreact\public\manifest.json
-C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit\build\asset-manifest.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit\build\manifest.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit\package-lock.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit\package.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit\public\manifest.json
 C:\Users\Home_PC\Desktop\MyAspNetCoreServer\obj\Debug\net9.0\MyAspNetCoreServer.sourcelink.json
+C:\Users\Home_PC\Desktop\MyAspNetCoreServer\bin\Debug\net9.0\my-app — @reduxjstoolkit\build\asset-manifest.json
