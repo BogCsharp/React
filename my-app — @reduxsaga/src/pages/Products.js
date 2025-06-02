@@ -7,21 +7,10 @@ import './Products.css';
 
 const Products = () => {
     const dispatch = useDispatch();
-    const productsState = useSelector(state => {
-        const currentState = {
-            products: state.products.items,
-            loading: state.products.loading,
-            hasMore: state.products.hasMore,
-            currentPage: state.products.currentPage,
-            error: state.products.error
-        };
-        console.log('Current products state:', currentState);
-        return state.products;
-    });
+    const productsState = useSelector(state => state.products);
     const { items: products = [], loading, error, hasMore, currentPage } = productsState;
 
     useEffect(() => {
-        console.log('Products component mounted');
         dispatch(productsModule.actions.getProducts(1));
         return () => {
             dispatch(productsModule.actions.clearError());
@@ -30,7 +19,6 @@ const Products = () => {
 
     const handleLoadMore = () => {
         if (!loading && hasMore) {
-            console.log('Loading more products, current page:', currentPage);
             dispatch(productsModule.actions.getProducts(currentPage + 1));
         }
     };
@@ -43,16 +31,7 @@ const Products = () => {
         }
     };
 
-    // Проверяем условия отображения кнопки
     const shouldShowLoadMore = Boolean(hasMore) && !loading && products.length > 0;
-    console.log('Load More button conditions:', {
-        hasMore,
-        loading,
-        productsLength: products.length,
-        shouldShow: shouldShowLoadMore,
-        currentPage,
-        products
-    });
 
     if (error) {
         return <Error message={error} />;
