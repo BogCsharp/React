@@ -33,7 +33,12 @@ input {
 
 input:focus {
     border-color: #007bff;
-    outline: none;
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+input:invalid {
+    border-color: #dc3545;
 }
 
 button {
@@ -47,11 +52,66 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background-color: #0056b3;
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
 }
 
 .error-message {
-    color: red;
+    color: #dc3545;
     margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    background-color: #f8d7da;
+}
+
+/* Улучшения для клавиатурной навигации */
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+/* Улучшения для контраста */
+@media (prefers-contrast: more) {
+    h2 {
+        color: #000;
+    }
+    
+    input {
+        border: 2px solid #000;
+    }
+    
+    button {
+        border: 2px solid #000;
+    }
+    
+    .error-message {
+        border: 2px solid #000;
+        color: #000;
+        background-color: #fff;
+    }
+}
+
+/* Улучшения для уменьшенного движения */
+@media (prefers-reduced-motion: reduce) {
+    button {
+        transition: none;
+    }
+}
+
+/* Стили для скрытых элементов, доступных для скринридеров */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }

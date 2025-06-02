@@ -4,14 +4,14 @@ export const Home = () => {
     const { user } = useAuth();
 
     return (
-        <div className="home-page">
+        <main className="home-page" role="main" id="main-content" tabIndex="-1">
             <h1>Добро пожаловать!</h1>
             {user ? (
                 <p>Вы вошли как: {user.username}</p>
             ) : (
                 <p>Пожалуйста, войдите в систему</p>
             )}
-        </div>
+        </main>
     );
 };
 export default Home;

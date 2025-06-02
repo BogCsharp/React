@@ -2,9 +2,10 @@ import RegisterForm from '../components/RegisterForm';
 
 const Register = () => {
     return (
-        <div className="register-page">
+        <main className="register-page" role="main" id="main-content" tabIndex="-1">
+            <h1 className="visually-hidden">Страница регистрации</h1>
             <RegisterForm />
-        </div>
+        </main>
     );
 };
 

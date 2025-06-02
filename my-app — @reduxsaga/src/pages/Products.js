@@ -42,44 +42,54 @@ const Products = () => {
     }
 
     return (
-        <div className="products-container">
-            <h2>Список товаров</h2>
+        <main className="products-container" role="main" id="main-content" tabIndex="-1">
+            <h1 className="visually-hidden">Список товаров</h1>
+            <h2 id="products-heading">Список товаров</h2>
             
-            <div className="products-grid">
+            <div 
+                className="products-grid" 
+                role="list" 
+                aria-labelledby="products-heading"
+            >
                 {products.map(product => (
-                    <div key={product.id} className="product-card">
+                    <article 
+                        key={product.id} 
+                        className="product-card"
+                        role="listitem"
+                    >
                         <h3>{product.name}</h3>
-                        <p>Дата выпуска: {new Date(product.releaseDate).toLocaleDateString()}</p>
-                        <p>Цена: {product.price} руб.</p>
-                        <button onClick={() => handleAddToCart(product)}>
+                        <p>
+                            <span className="visually-hidden">Дата выпуска: </span>
+                            {new Date(product.releaseDate).toLocaleDateString()}
+                        </p>
+                        <p>
+                            <span className="visually-hidden">Цена: </span>
+                            {product.price} руб.
+                        </p>
+                        <button 
+                            onClick={() => handleAddToCart(product)}
+                            aria-label={`Добавить ${product.name} в корзину`}
+                        >
                             Добавить в корзину
                         </button>
-                    </div>
+                    </article>
                 ))}
             </div>
             
             {loading && <Loading />}
             
             {shouldShowLoadMore && (
-                <div style={{ marginTop: '20px', textAlign: 'center' }}>
+                <div className="load-more-container">
                     <button 
                         onClick={handleLoadMore}
-                        style={{
-                            padding: '10px 20px',
-                            fontSize: '16px',
-                            cursor: 'pointer',
-                            backgroundColor: '#6c757d',
-                            color: 'white',
-                            border: 'none',
-                            borderRadius: '4px',
-                            marginBottom: '20px'
-                        }}
+                        className="load-more-button"
+                        aria-label="Загрузить еще товары"
                     >
                         Загрузить еще
                     </button>
                 </div>
             )}
-        </div>
+        </main>
     );
 };
 

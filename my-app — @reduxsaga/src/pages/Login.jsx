@@ -80,12 +80,30 @@ const Login = () => {
     };
 
     return (
-        <div className="login-container">
-            <h2>Вход в систему</h2>
-            {error && <div className="error-message">{error}</div>}
-            <form onSubmit={handleSubmit} className="login-form">
+        <main className="login-container" role="main" id="main-content" tabIndex="-1">
+            <h1 className="visually-hidden">Страница входа</h1>
+            <h2 id="login-heading">Вход в систему</h2>
+            
+            {error && (
+                <div 
+                    className="error-message" 
+                    role="alert" 
+                    aria-live="assertive"
+                >
+                    {error}
+                </div>
+            )}
+            
+            <form 
+                onSubmit={handleSubmit} 
+                className="login-form"
+                aria-labelledby="login-heading"
+                noValidate
+            >
                 <div className="form-group">
-                    <label htmlFor="username">Имя пользователя:</label>
+                    <label htmlFor="username" id="username-label">
+                        Имя пользователя:
+                    </label>
                     <input
                         type="text"
                         id="username"
@@ -94,11 +112,16 @@ const Login = () => {
                         onChange={handleChange}
                         required
                         disabled={loading}
+                        aria-required="true"
+                        aria-invalid={error ? "true" : "false"}
+                        aria-describedby={error ? "error-message" : undefined}
                     />
                 </div>
                 
                 <div className="form-group">
-                    <label htmlFor="password">Пароль:</label>
+                    <label htmlFor="password" id="password-label">
+                        Пароль:
+                    </label>
                     <input
                         type="password"
                         id="password"
@@ -107,6 +130,10 @@ const Login = () => {
                         onChange={handleChange}
                         required
                         disabled={loading}
+                        aria-required="true"
+                        aria-invalid={error ? "true" : "false"}
+                        aria-describedby={error ? "error-message" : undefined}
+                        minLength="6"
                     />
                 </div>
                 
@@ -114,14 +141,24 @@ const Login = () => {
                     type="submit" 
                     className="login-button"
                     disabled={loading}
+                    aria-busy={loading}
                 >
                     {loading ? 'Вход...' : 'Войти'}
                 </button>
             </form>
-            <div style={{ marginTop: '20px' }}>
-                <p>Нет аккаунта? <Link to="/register">Зарегистрироваться</Link></p>
+            
+            <div className="register-link">
+                <p>
+                    Нет аккаунта?{' '}
+                    <Link 
+                        to="/register"
+                        aria-label="Перейти на страницу регистрации"
+                    >
+                        Зарегистрироваться
+                    </Link>
+                </p>
             </div>
-        </div>
+        </main>
     );
 };
 

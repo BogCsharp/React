@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+}
+
+/* Улучшения для контраста */
+@media (prefers-contrast: more) {
+    .skip-link {
+        border: 2px solid #000;
+    }
+    
+    .skip-link:focus {
+        outline: 2px solid #000;
+    }
+}
+
+/* Улучшения для уменьшенного движения */
+@media (prefers-reduced-motion: reduce) {
+    .skip-link {
+        transition: none;
+    }
+}
